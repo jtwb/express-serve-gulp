@@ -1,0 +1,11 @@
+{
+  "name": "express-serve-gulp",
+  "version": "0.0.1",
+  "description": "Express middleware which handles asset requests with serve-gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jtwb",
+  "license": "MIT"
+}

@@ -6,9 +6,6 @@ var _ = require('underscore');
 var serveGulp = require('serve-gulp');
 
 
-// BOOKMARK - serve-gulp API must select internal gulpfile if none given
-// BOOKMARK - specify local gulpfile if it exists
-// BOOKMARK - basedir
 var DEFAULTS = {
   basedir: path.resolve('.'),
   restrict: path.resolve(',')

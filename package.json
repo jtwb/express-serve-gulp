@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+      "jtwb/serve-gulp": "0.*.*",
+      "underscore": "1.*.*"
+  }
   "author": "jtwb",
   "license": "MIT"
 }

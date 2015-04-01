@@ -1,5 +1,7 @@
 # express-serve-gulp
 
+See [serve-gulp](https://github.com/jtwb/serve-gulp) for detailed docs
+
 ```javascript
 'use strict';
 

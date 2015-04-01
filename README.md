@@ -1,6 +1,14 @@
 # express-serve-gulp
 
-See [serve-gulp](https://github.com/jtwb/serve-gulp) for detailed docs
+With **express-serve-gulp**,
+
+* You do not need to install `gulp`
+* You do not need to run `gulp watch`
+
+In this example, requests to the webserver matching `^/assets/` are transpiled and served on-the-fly. If your project root contains a file named **gulpfile.js**, tasks from that file are used to process assets; otherwise there is a built-in Gulpfile. See [#Bring your own Gulpfile](https://github.com/jtwb/serve-gulp#bring-your-own-gulpfile) and [#Default Gulpfile](https://github.com/jtwb/serve-gulp#default-gulpfile).
+
+See [serve-gulp](https://github.com/jtwb/serve-gulp) for detailed docs.
+
 
 ```javascript
 'use strict';
